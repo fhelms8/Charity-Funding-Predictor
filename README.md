@@ -33,6 +33,9 @@ For the <b>Starter Code</b>, I had the following: <br>
 <br>
 I attempted to do a basic layer/node/activation setup to start to get the general basis of what I was looking at and looking for, before attempting the other trials. 
 <br>
+Results: <br>
+
+
 <br>
 For my <b>Optimzation</b>:
 <br>
@@ -42,7 +45,8 @@ Attempt 1: <br>
 * 10 nodes on 1st hidden node layer, 5 on 2nd hidden node layer, 1 on 3rd hidden node layer.<br>
 * 4 activation functions: relu, sigmoid, relu, sigmoid (in that order, per layer). <br>
 <br>
-
+Attempt 2:
+* 
 
 
 
