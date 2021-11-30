@@ -34,7 +34,7 @@ For the <b>Starter Code</b>, I had the following: <br>
 I attempted to do a basic layer/node/activation setup to start to get the general basis of what I was looking at and looking for, before attempting the other trials. 
 <br>
 Results: <br>
-
+<img src=https://github.com/fhelms8/Charity-Funding-Predictor/blob/main/Resources/Images%20&%20Results/Starting%20code%20attempt%20results.png?raw=true>
 
 <br>
 For my <b>Optimzation</b>:
@@ -45,8 +45,50 @@ Attempt 1: <br>
 * 10 nodes on 1st hidden node layer, 5 on 2nd hidden node layer, 1 on 3rd hidden node layer.<br>
 * 4 activation functions: relu, sigmoid, relu, sigmoid (in that order, per layer). <br>
 <br>
-Attempt 2:
-* 
+<br>
+I added a layer, added more nodes and kept the same pattern going for the activations, primarily to see where it got me with the accuracy to see what I should adjust for the next. 
+Results:<br>
+<br>
+There was a 1% increase in the accuracy.<br>
+<img src=https://github.com/fhelms8/Charity-Funding-Predictor/blob/main/Resources/Images%20&%20Results/Attempt%201.png?raw=true>
+<br>
+Attempt 2: <br>
+* 4 layers (3 hidden node layers, 1 output layer)<br>
+* 10 nodes on 1st hidden node layer, 6 on 2nd hidden node layer, 3 on 3rd hidden node layer.<br>
+* 4 activation functions: relu, sigmoid, relu, sigmoid (in that order, per layer). <br>
+<br>
+<br>
+I had dropped income amounts that were large numbers (which could result in outliers), to see if it made any kind of impact on the results, along with changing some of the nodes. 
+Results: <br>
+<br>
+There was a slight decrease in accuracy but also a slight decrease in the loss category. <br>
+<img src=https://github.com/fhelms8/Charity-Funding-Predictor/blob/main/Resources/Images%20&%20Results/Attempt%202.png?raw=true>
+<br>
+<br>
+Attempt 3: <br>
+* 4 layers (3 hidden node layers, 1 output layer)<br>
+* 4 nodes on 1st hidden node layer, 4 on 2nd hidden node layer, 4 on 3rd hidden node layer.<br>
+* 4 activation functions: relu, sigmoid, relu, sigmoid (in that order, per layer). <br>
+<br>
+<br>
+I had dropped more of the income amount and removed some of the nodes that I had added on. (same reason as Attempt 2). 
+Results:<br>
+<br>
+There was a 1% loss in accuracy from Attempt 2 and a slight increase in the loss category. 
+<img src=https://github.com/fhelms8/Charity-Funding-Predictor/blob/main/Resources/Images%20&%20Results/Attempt%203.png?raw=true>
+<br>
+<br>
+Attempt 4: <br>
+* 3 layers (2 hidden node layers, 1 output layer).<br>
+* 5 nodes on 1st hidden node layer, 3 on 2nd hidden node layer.<br>
+* 3 activation functions: relu, tanh, sigmoid (in that order, per layer). <br>
+<br>
+<br>
+Prior to doing my other attempts, I made the observation that there were 23k customers that had requested $5000, which also seemed to be a minimum amount, as there were not others lower than that amount. With this in mind, I decided to filter only the $5k, to see if the numbers would change, since there wasn't going to be a big outliers in this column. 
+Results: <br>
+I was surprised with this result because the epoch accuracy was showing the majority were over 0.80, but allas, it had a lower score than all of the ones combined. I attempted several different ways (adding, removing layers, changing activations, changing node count etc) but this was the best I could get. 
+<img src=https://github.com/fhelms8/Charity-Funding-Predictor/blob/main/Resources/Images%20&%20Results/Attempt%204.png?raw=true>
+
 
 
 
