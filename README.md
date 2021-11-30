@@ -1,5 +1,7 @@
 # Charity-Funding-Predictor
 Deep Learning/ Machine Learning
+<br>
+The files are in "Instructions". There is a "testing" file, in which you can see some of my pre-processing before actually attempting to start the starter code. I wanted to try and break down some of the columns before diving into it. 
 
 ## Objective
 A non-profit foundation, Alphabet Soup, wants to create an algorithm to predict whether applicants for funding will be successful. With my knowledge of machine learning and neural networks. I will use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
