@@ -90,6 +90,8 @@ I was surprised with this result because the epoch accuracy was showing the majo
 <img src=https://github.com/fhelms8/Charity-Funding-Predictor/blob/main/Resources/Images%20&%20Results/Attempt%204.png?raw=true>
 
 
-
+## Summary: 
+<br>
+Four out of five attempts averaged around 72-73%. There seems to be a consistent score, even with other attempts I had made that are not appart of this chart. I believe if I had more time, I may be able to filter out more of the dataset and run partial column anaylsis (by removing the majority of the columns to narrow it down) that I may be able to get a higher percentage, but I am not positive we will get a much better score. I believe a better dataset would be recommended by adding in some time frames, to get a better idea of which "Ask amt" tier is more successful and then narrowing down the field that way. It would help give more feedback to the company and would help them narrow down how much money they are giving out. 
 
 
