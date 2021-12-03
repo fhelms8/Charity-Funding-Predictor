@@ -4,7 +4,7 @@ Deep Learning/ Machine Learning
 The files are in "Instructions". There is a "testing" file, in which you can see some of my pre-processing before actually attempting to start the starter code. I wanted to try and break down some of the columns before diving into it. 
 
 ## Objective
-A non-profit foundation, Alphabet Soup, wants to create an algorithm to predict whether applicants for funding will be successful. With my knowledge of machine learning and neural networks. I will use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
+A non-profit foundation, Alphabet Soup, wants to create an algorithm to predict whether applicants for funding will be successful. With my knowledge of machine learning and neural networks, I will use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
 
 ## Data Preprocessing
 
@@ -48,7 +48,7 @@ Attempt 1: <br>
 * 4 activation functions: relu, sigmoid, relu, sigmoid (in that order, per layer). <br>
 <br>
 <br>
-I added a layer, added more nodes and kept the same pattern going for the activations, primarily to see where it got me with the accuracy to see what I should adjust for the next. 
+I added a layer, added more nodes and kept the same pattern going for the activations, primarily to see where it got me with the accuracy to see what I should adjust for the next. <br>
 Results:<br>
 <br>
 There was a 1% increase in the accuracy.<br>
